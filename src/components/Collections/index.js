@@ -400,7 +400,7 @@ const signatureItems = [
     subtitle: 'OUR SIGNATURE COLLECTION',
     description:
       'Bespoke furniture and interiors tailored uniquely to your space.',
-    image: '/carousalimages/CustomMade.webp',
+    image: '/carousalimages/CustomMade (1).webp',
 
     items: [
       {
