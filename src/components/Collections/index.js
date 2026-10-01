@@ -11,7 +11,7 @@ const signatureItems = [
     subtitle: 'OUR SIGNATURE COLLECTION',
     description:
       'Imaginative outdoor retreats crafted for endless childhood adventures.',
-    image: '/mobileviewcarousals/Treehousefinal.png',
+    image: '/mobileviewcarousals/Treehousefinal.webp',
 
     items: [
       {
@@ -26,7 +26,7 @@ const signatureItems = [
         title: '2. Playhouse View',
         description:
           'A playful retreat made for little everyday adventures.',
-        image: '/mobileviewcarousals/Treehousefinal.png'
+        image: '/mobileviewcarousals/Treehousefinal.webp'
       },
       {
         id: 3,
@@ -160,35 +160,35 @@ const signatureItems = [
         title: '13. Custom Tree House Exterior',
         description:
           'A handcrafted structure bringing outdoor adventure indoors.',
-        image: '/playyhouse/play1.png'
+        image: '/playyhouse/play1.webp'
       },
       {
         id: 14,
         title: '14. Playhouse View',
         description:
           'A charming play space made for imaginative moments.',
-        image: '/playyhouse/play2.png'
+        image: '/playyhouse/play2.webp'
       },
       {
         id: 15,
         title: '15. Tree House with Slide',
         description:
           'A playful structure combining climbing and sliding adventures.',
-        image: '/playyhouse/play3.png'
+        image: '/playyhouse/play3.webp'
       },
       {
         id: 16,
         title: '16. Tree House with Rope Ladder',
         description:
           'A climbing-focused design made for active young adventurers.',
-        image: '/playyhouse/play4.png'
+        image: '/playyhouse/play4.webp'
       },
       {
         id: 17,
         title: '17. Tree House with Swing',
         description:
           'A playful retreat designed for swinging and exploring.',
-        image: '/playyhouse/play5.png'
+        image: '/playyhouse/play5.webp'
       }
     ]
   },
@@ -202,7 +202,7 @@ const signatureItems = [
     subtitle: 'OUR SIGNATURE COLLECTION',
     description:
       'Purposeful outdoor play structures created for movement and discovery.',
-    image: '/outdoor/outdoor-03.png',
+    image: '/outdoor/outdoor-03.webp',
 
     items: [
       {
@@ -210,112 +210,112 @@ const signatureItems = [
         title: '1. Outdoor Discovery Structure',
         description:
           'A creative outdoor structure built for exploration and play.',
-        image: '/outdoor/outdoor-01.png'
+        image: '/outdoor/outdoor-01.webp'
       },
       {
         id: 2,
         title: '2. Creative Play Space',
         description:
           'An imaginative environment designed for open-ended outdoor play.',
-        image: '/outdoor/outdoor-02.png'
+        image: '/outdoor/outdoor-02.webp'
       },
       {
         id: 3,
         title: '3. Outdoor Adventure Loft',
         description:
           'An elevated outdoor escape created for active adventures.',
-        image: '/outdoor/outdoor-03.png'
+        image: '/outdoor/outdoor-03.webp'
       },
       {
         id: 4,
         title: '4. Elevated Play Structure',
         description:
           'A raised play environment encouraging movement and exploration.',
-        image: '/mobileviewcarousals/Treehousefinal.png'
+        image: '/mobileviewcarousals/Treehousefinal.webp'
       },
       {
         id: 5,
         title: '5. Outdoor Climbing Zone',
         description:
           'A dedicated climbing space designed for energetic outdoor play.',
-        image: '/outdoor/outdoor-05.png'
+        image: '/outdoor/outdoor-05.webp'
       },
       {
         id: 6,
         title: '6. Adventure Play Tower',
         description:
           'A statement play tower built for climbing and discovery.',
-        image: '/outdoor/outdoor-06.png'
+        image: '/outdoor/outdoor-06.webp'
       },
       {
         id: 7,
         title: '7. Outdoor Explorer Hub',
         description:
           'A playful destination designed for curious young explorers.',
-        image: '/outdoor/outdoor-07.png'
+        image: '/outdoor/outdoor-07.webp'
       },
       {
         id: 8,
         title: '8. Nature-Inspired Play Area',
         description:
           'A playful environment thoughtfully connected with the outdoors.',
-        image: '/outdoor/outdoor-08.png'
+        image: '/outdoor/outdoor-08.webp'
       },
       {
         id: 9,
         title: '9. Outdoor Activity Zone',
         description:
           'An active play zone designed for movement and creativity.',
-        image: '/outdoor/outdoor-09.png'
+        image: '/outdoor/outdoor-09.webp'
       },
       {
         id: 10,
         title: '10. Kids Adventure Playground',
         description:
           'A joyful playground designed for energetic everyday adventures.',
-        image: '/outdoor/outdoor-10.png'
+        image: '/outdoor/outdoor-10.webp'
       },
       {
         id: 11,
         title: '11. Outdoor Imagination Space',
         description:
           'A flexible outdoor setting where imagination leads the play.',
-        image: '/outdoor/outdoor-11.png'
+        image: '/outdoor/outdoor-11.webp'
       },
       {
         id: 12,
         title: '12. Multi-Level Play Area',
         description:
           'Multiple levels create more ways to climb and explore.',
-        image: '/outdoor/outdoor-12.png'
+        image: '/outdoor/outdoor-12.webp'
       },
       {
         id: 13,
         title: '13. Outdoor Exploration Zone',
         description:
           'A discovery-led space encouraging active outdoor experiences.',
-        image: '/outdoor/outdoor-13.png'
+        image: '/outdoor/outdoor-13.webp'
       },
       {
         id: 14,
         title: '14. Adventure Play Pavilion',
         description:
           'A beautifully crafted pavilion designed around adventurous play.',
-        image: '/outdoor/outdoor-14.png'
+        image: '/outdoor/outdoor-14.webp'
       },
       {
         id: 15,
         title: '15. Outdoor Discovery Hub',
         description:
           'A playful outdoor hub created for exploration and connection.',
-        image: '/outdoor/outdoor-15.png'
+        image: '/outdoor/outdoor-15.webp'
       },
       {
         id: 16,
         title: '16. Active Play Playground',
         description:
           'An energetic playground encouraging movement, balance and confidence.',
-        image: '/outdoor/outdoor-16.png'
+        image: '/outdoor/outdoor-16.webp'
       }
     ]
   },
@@ -329,7 +329,7 @@ const signatureItems = [
     subtitle: 'OUR SIGNATURE COLLECTION',
     description:
       'Thoughtful interiors designed around comfort, creativity and childhood.',
-    image: '/carousalimages/KidsInterior.png',
+    image: '/carousalimages/KidsInterior.webp',
 
     items: [
       {
@@ -400,7 +400,7 @@ const signatureItems = [
     subtitle: 'OUR SIGNATURE COLLECTION',
     description:
       'Bespoke furniture and interiors tailored uniquely to your space.',
-    image: '/carousalimages/CustomMade.png',
+    image: '/carousalimages/CustomMade.webp',
 
     items: [
       {
@@ -443,21 +443,21 @@ const signatureItems = [
         title: '6. Classic Upholstered',
         description:
           'Timeless upholstered pieces created for comfort and elegance.',
-        image: '/dining/d3.png'
+        image: '/dining/d3.webp'
       },
       {
         id: 7,
         title: '7. Sectional Sofas',
         description:
           'Flexible modular seating made for contemporary everyday living.',
-        image: '/sofas/s4.png'
+        image: '/sofas/s4.webp'
       },
       {
         id: 8,
         title: '8. Custom Seating',
         description:
           'Bespoke seating crafted for comfort, proportion and style.',
-        image: '/sofas/s5.png'
+        image: '/sofas/s5.webp'
       }
     ]
   }
@@ -474,6 +474,8 @@ const Collections = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const sectionRef = useRef(null);
+  const touchStartRef = useRef(null);
+  const lastSwipeAtRef = useRef(0);
 
   useEffect(() => {
     const currentSection = sectionRef.current;
@@ -584,6 +586,43 @@ const Collections = () => {
     );
   };
 
+  const handleTouchStart = (event) => {
+    const touch = event.touches[0];
+    touchStartRef.current = {
+      x: touch.clientX,
+      y: touch.clientY
+    };
+  };
+
+  const handleTouchEnd = (event) => {
+    if (!touchStartRef.current) return;
+
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - touchStartRef.current.x;
+    const deltaY = touch.clientY - touchStartRef.current.y;
+    touchStartRef.current = null;
+
+    if (Math.abs(deltaX) < 50 || Math.abs(deltaX) <= Math.abs(deltaY)) {
+      return;
+    }
+
+    lastSwipeAtRef.current = Date.now();
+
+    if (selectedCategory) {
+      deltaX < 0 ? handleSubNext() : handleSubPrev();
+    } else {
+      deltaX < 0 ? handleMainNext() : handleMainPrev();
+    }
+  };
+
+  const handleSwipeClick = (event) => {
+    if (Date.now() - lastSwipeAtRef.current < 500) {
+      event.preventDefault();
+      event.stopPropagation();
+      lastSwipeAtRef.current = 0;
+    }
+  };
+
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
     setActivePage(0);
@@ -658,7 +697,12 @@ const Collections = () => {
       {!selectedCategory ? (
         <div className="main-categories-view">
 
-          <div className="signature-grid-wrapper">
+          <div
+            className="signature-grid-wrapper"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            onClickCapture={handleSwipeClick}
+          >
 
             {mainTotalPages > 1 && (
               <button
@@ -788,7 +832,12 @@ const Collections = () => {
 
         <div className="category-block active-subview">
 
-          <div className="signature-grid-wrapper">
+          <div
+            className="signature-grid-wrapper"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            onClickCapture={handleSwipeClick}
+          >
 
             {isScrollable && (
               <button

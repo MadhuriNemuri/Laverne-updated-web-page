@@ -646,6 +646,8 @@
 
   .signature-grid-wrapper {
     display: block;
+
+    touch-action: pan-y;
   }
 
   .signature-grid,

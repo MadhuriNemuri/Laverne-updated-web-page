@@ -105,19 +105,19 @@ const categoriesData = [
         id: 1,
         title: "1. Modern Dining",
         description: "Contemporary dining crafted for effortless everyday gatherings.",
-        image: "/dining/d1.png"
+        image: "/dining/d1.webp"
       },
       {
         id: 2,
         title: "2. Modern Classic",
         description: "Classic elegance refined for modern dining spaces.",
-        image: "/dining/d2.png"
+        image: "/dining/d2.webp"
       },
       {
         id: 3,
         title: "3. Classic Dining",
         description: "Traditional dining furniture with enduring craftsmanship.",
-        image: "/dining/d3.png"
+        image: "/dining/d3.webp"
       },
       {
         id: 4,
@@ -130,7 +130,7 @@ const categoriesData = [
         id: 5,
         title: "5. Dining Chairs",
         description: "Comfortable dining chairs shaped with refined proportions.",
-        image: "/dining/d4.png"
+        image: "/dining/d4.webp"
       }
     ]
   },
