@@ -659,6 +659,8 @@ const CuratedCategories = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const sectionRef = useRef(null);
+  const touchStartRef = useRef(null);
+  const lastSwipeAtRef = useRef(0);
 
 
   /* =========================================================
@@ -782,6 +784,49 @@ const CuratedCategories = () => {
     );
   };
 
+  const handleTouchStart = (event) => {
+    const touch = event.touches[0];
+    touchStartRef.current = {
+      x: touch.clientX,
+      y: touch.clientY
+    };
+  };
+
+  const handleTouchEnd = (event) => {
+    if (!touchStartRef.current) return;
+
+    const touch = event.changedTouches[0];
+    const deltaX = touch.clientX - touchStartRef.current.x;
+    const deltaY = touch.clientY - touchStartRef.current.y;
+    touchStartRef.current = null;
+
+    if (Math.abs(deltaX) < 50 || Math.abs(deltaX) <= Math.abs(deltaY)) {
+      return;
+    }
+
+    lastSwipeAtRef.current = Date.now();
+
+    if (selectedCategory) {
+      if (deltaX < 0) {
+        handleSubNext();
+      } else {
+        handleSubPrev();
+      }
+    } else if (deltaX < 0) {
+      handleMainNext();
+    } else {
+      handleMainPrev();
+    }
+  };
+
+  const handleSwipeClick = (event) => {
+    if (Date.now() - lastSwipeAtRef.current < 500) {
+      event.preventDefault();
+      event.stopPropagation();
+      lastSwipeAtRef.current = 0;
+    }
+  };
+
 
   /* =========================================================
      OPEN CATEGORY
@@ -864,7 +909,12 @@ const CuratedCategories = () => {
 
         <div className="main-categories-view">
 
-          <div className="signature-grid-wrapper">
+          <div
+            className="signature-grid-wrapper"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            onClickCapture={handleSwipeClick}
+          >
 
             {mainTotalPages > 1 && (
               <button
@@ -1001,7 +1051,12 @@ const CuratedCategories = () => {
 
         <div className="category-block active-subview">
 
-          <div className="signature-grid-wrapper">
+          <div
+            className="signature-grid-wrapper"
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+            onClickCapture={handleSwipeClick}
+          >
 
             {isScrollable && (
 
