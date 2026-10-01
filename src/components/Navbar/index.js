@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="nav-logo">
         <a href="#home" onClick={handleNavClick}>
           <img
-            src="/laverneLogo/laverne_logo_transparent.png"
+            src="/laverneLogo/Laverne logo.png"
             alt="Laverne Studio"
           />
         </a>
